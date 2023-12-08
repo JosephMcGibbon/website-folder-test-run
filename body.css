@@ -5,22 +5,24 @@ body {
     padding: 0;
 }
 
-
 header {
     color: #4399CD;
     padding: 1em;
 }
 
 .logo{
-    float: left;
     position:absolute;
     left:10px;
     top:10px;
     margin: 0px 15px 15px 0px;
+    height: 50px;
+    width: 50px;
 }
 
 nav {
     float: right;
+    height: 50px;
+    width: 100%;
 }
 
 nav ul {
