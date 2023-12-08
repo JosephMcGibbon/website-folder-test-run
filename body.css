@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #CAE7F5;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    color: #4399CD;
+    padding: 1em;
+}
+
+.logo{
+    float: left;
+    position:absolute;
+    left:10px;
+    top:10px;
+    margin: 0px 15px 15px 0px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4399CD;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00; /* Change the color on hover as needed */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
