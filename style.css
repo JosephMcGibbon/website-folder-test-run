@@ -5,43 +5,68 @@ body {
     padding: 0;
 }
 
-header {
 
+h2 {
+    position: relative;
     color: #4399CD;
-    padding: 1em;
+    font-size: 50px;
+    margin: 0;
+    
 }
 
+#logo{
+    position: relative;
+    top: 0px;
+    left: 20px;
+    height: 80px;
+    z-index: 500;
+}
 nav {
+    top: 0px;
+    position: absolute;
+    width: 100%;
     float: right;
+    
 }
 
 nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    line-height: 50px;
+    z-index: 500;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin: 0 10px;
 }
 
-nav a {
+nav ul li a {
+    display: inline-block;
+    line-height: 60px;
     text-decoration: none;
-    color: #4399CD;
+  /*  background-color: #CAE7F5; */
+    color: white;
     font-weight: bold;
+    font-size: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
-nav a:hover {
-    color: #ffcc00; /* Change the color on hover as needed */
+nav ul li a:hover {
+    background-color: darkgrey; 
+     
 }
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1em;
-    position: fixed;
+    padding: 10px;
+    position: relative;
     bottom: 0;
     width: 100%;
 }

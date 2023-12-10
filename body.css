@@ -12,14 +12,14 @@ header {
 }
 
 #logo{
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 20px;
     height: 80px;
     z-index: 500;
 }
 nav {
-    position: fixed;
+    position: relative;
     width: 100%;
     float: right;
     z-index: 500;
@@ -63,6 +63,9 @@ nav ul li a:hover {
 }
 
 .container {
+    background-image: url(top-view-old-french-newspaper-pieces.jpg); 
+    background-size: cover;
+    background-position: center;
     position: relative;
     margin: 0 ;
     max-width: 100%;
@@ -104,12 +107,54 @@ h1 {
     padding-right: 250px;
 }
 
+.maincontainer {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    display: flex; /* Use flexbox to align the images */
+    justify-content: center; /* Center the images horizontally */
+   /* flex-wrap: wrap; /* Allow the images to wrap to the next line */
+}
+
+div.image-container img {
+    height: 220px;
+    width: 310px;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+div.image-container img:hover{
+    transform: scale(1.1);
+}
+
+.containerheading {
+    display: block;
+    text-align: center;
+    color: #003366;
+    font-size: 30px;
+    font-family: 'Playfair Display', 'italic';
+    white-space: normal;
+    margin: 20px;
+}
+
+.container2{
+    float: left;
+    width: 400px; 
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox to align the images */
+    justify-content: center; /* Center the images horizontally */
+}
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
