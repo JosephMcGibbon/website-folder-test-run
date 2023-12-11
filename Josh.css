@@ -21,7 +21,7 @@
     display: flex;
     position: relative;
     padding-top: 50px;
-    left: 15%;
+    /* left: 15%; */
 }
 
 .box-1{
@@ -29,6 +29,7 @@
     height: 400px;
     width: 400px;
     margin: 10px;
+    left: 15%;
 }
 
 .box-2{
@@ -36,4 +37,5 @@
     height: 400px;
     width: 400px;
     margin: 10px;
+    right: 15%;
 }
