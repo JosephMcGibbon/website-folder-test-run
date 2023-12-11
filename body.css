@@ -91,7 +91,7 @@ nav ul li a:hover {
     height: 100%;
 }
 
-.h1 {
+h1 {
     text-align: center;
     color: white;
     white-space: normal;
@@ -139,7 +139,7 @@ div.image-container img:hover{
     margin: 20px;
 }
 
-.container{
+.container2{
     float: left;
     width: 400px; 
     vertical-align: top;
