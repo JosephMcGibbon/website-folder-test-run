@@ -10,6 +10,9 @@
     padding: 40px
 }
 
+.new_text{
+    font-size: 25px;
+}
 
 .Joes_Container_one{
     position: relative;
@@ -21,7 +24,7 @@
 
 .minor_Heading{
     color: #4399CD;
-    font-size: 35px;
+    font-size: 50px;
 }
 
 footer {
