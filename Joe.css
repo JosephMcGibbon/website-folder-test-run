@@ -1,0 +1,35 @@
+.img_Political{
+    float: right;
+    width: 35%;
+    padding: 20px
+}
+
+.img_Political_2{
+    float: left;
+    width: 35%;
+    padding: 20px
+}
+
+
+.Joes_Container_one{
+    position: relative;
+    width: 70%;
+    left: 15%;
+    padding-top: 100px;
+    padding-bottom: 250px;
+}
+
+.minor_Heading{
+    color: #4399CD;
+    font-size: 35px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
