@@ -1,7 +1,9 @@
-h3 {
-    position: relative;
-    color: #4399CD;
-    font-size: 50px;
-    margin: 0;
-    
+.img_Political{
+    float: right;
+    width: 30%;
+}
+
+.pos_cen{
+    position: absolute;
+    width: 70%;
 }
