@@ -45,17 +45,20 @@ nav ul li a {
     display: inline-block;
     line-height: 60px;
     text-decoration: none;
-  /*  background-color: #CAE7F5; */
     color: white;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 20px;
     padding: 0 20px;
     box-sizing: border-box;
 }
 
 nav ul li a:hover {
-    background-color: darkgrey; 
-     
+    background-color: #4a9cce; 
+}
+
+nav ul li a:active {
+    background-color: white;
+    color: #4a9cce;
 }
 
 * {
@@ -96,8 +99,8 @@ h1 {
     text-align: center;
     color: white;
     white-space: normal;
-    padding-top: 300px;
-    font-size: 70px;
+    padding-top: 250px;
+    font-size: 80px;
     font-weight: 800;
 }
 
@@ -107,6 +110,7 @@ h1 {
     font-size: 20px;
     padding-left: 250px;
     padding-right: 250px;
+    color: white;
 }
 
 .maincontainer {
@@ -120,8 +124,8 @@ h1 {
 }
 
 div.image-container img {
-    height: 220px;
-    width: 310px;
+    height: 210px;
+    width: 300px;
     vertical-align: top;
     margin-right: 10px;
     margin-left: 10px;
@@ -134,8 +138,9 @@ div.image-container img:hover{
 .containerheading {
     display: block;
     text-align: center;
-    color: #003366;
+    color: #054a91;
     font-size: 30px;
+    font-weight: 700;
     white-space: normal;
     margin: 20px;
 }
@@ -152,7 +157,7 @@ div.image-container img:hover{
 
 
 footer {
-    background-color: #333;
+    background-color: #2d3142;
     color: #fff;
     text-align: center;
     padding: 10px;
