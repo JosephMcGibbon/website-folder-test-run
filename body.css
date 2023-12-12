@@ -5,7 +5,6 @@ body {
     padding: 0;
 }
 
-
 header {
     color: #4399CD;
     padding: 0;
@@ -18,8 +17,8 @@ header {
     height: 80px;
     z-index: 500;
 }
-nav {
-    position: relative;
+/*nav {
+    position: absolute;
     width: 100%;
     float: right;
     z-index: 500;
@@ -59,7 +58,7 @@ nav ul li a:hover {
 nav ul li a:active {
     background-color: white;
     color: #4a9cce;
-}
+}*/
 
 * {
     box-sizing: border-box;

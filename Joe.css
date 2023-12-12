@@ -1,17 +1,26 @@
 .img_Political{
     float: right;
     width: 35%;
-    padding: 40px
+    padding: 40px;
+    padding-right: 0px; 
 }
 
 .img_Political_2{
     float: left;
     width: 35%;
-    padding: 40px
-}
+    padding: 40px;
+    padding-left: 0px;
+} 
 
 .new_text{
     font-size: 20px;
+    color: #2d3142;
+}
+
+.new_text1{
+    font-size: 20px;
+    padding-bottom: 80px;
+    color: #2d3142
 }
 
 .Joes_Container_one{
@@ -19,12 +28,14 @@
     width: 70%;
     left: 15%;
     padding-top: 50px;
-    padding-bottom: 100px;
-}
+} 
 
 .minor_Heading{
-    color: #4399CD;
-    font-size: 40px;
+    color: #4a9cce;
+    font-size: 35px;
+    margin-bottom: 0px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
 }
 
 footer {
@@ -35,4 +46,4 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-}
+} 
