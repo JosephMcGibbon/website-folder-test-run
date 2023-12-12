@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color: #CAE7F5;
     margin: 0;
     padding: 0;
@@ -92,11 +92,13 @@ nav ul li a:hover {
 }
 
 h1 {
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
     white-space: normal;
     padding-top: 300px;
     font-size: 70px;
+    font-weight: 800;
 }
 
 .description{
@@ -134,7 +136,6 @@ div.image-container img:hover{
     text-align: center;
     color: #003366;
     font-size: 30px;
-    font-family: 'Playfair Display', 'italic';
     white-space: normal;
     margin: 20px;
 }
