@@ -96,10 +96,10 @@ nav ul li a:hover {
 .option {
     cursor: pointer;
     background-color: #f0f0f0;
-    padding: 15px 25px; /* Increase padding for a larger button */
+    padding: 15px 25px; 
     border-radius: 5px;
     transition: background-color 0.3s;
-    margin: 5px 20px; /* Add margin to bring buttons closer together */
+    margin: 5px 20px; 
 }
 .option.selected {
     background-color: #2196F3;
@@ -122,11 +122,11 @@ nav ul li a:hover {
 }
 
 #submit, #restart {
-    padding: 10px 15px; /* Adjust padding for buttons */
+    padding: 10px 15px; 
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin: 5px; /* Add margin to bring buttons closer together */
+    margin: 5px; 
 }
 
 #submit:hover, #restart:hover {
